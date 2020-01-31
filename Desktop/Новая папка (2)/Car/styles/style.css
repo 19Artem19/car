@@ -1,0 +1,661 @@
+body {
+    font: 14px/16px 'Proxima Nova Rg', sans-serif;
+}
+
+.example-1 {
+    font: 20px/25px 'Klavika-osf', sans-serif;
+}
+
+.example-2 {
+    font: 20px/25px 'Klavika Bd', sans-serif;
+}
+
+.example-3 {
+    font: 20px/25px 'Klavika-plain-reg', sans-serif;
+}
+
+.example-4 {
+    font: 20px/25px 'Klavika-plain', sans-serif;
+}
+
+.example-5 {
+    font: 20px/25px 'Klavika-osf', sans-serif;
+}
+
+.example-6 {
+    font: 20px/25px 'Proxima Nova Rg', sans-serif;
+}
+
+.header-wrapper {
+    background: url(../images/header.png) no-repeat 50% 0;
+    height: 104px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+/* header */
+
+.header {
+    width: 1170px;
+    height: 104px;
+    margin: auto;
+    overflow: hidden;
+}
+
+.header p {
+    text-transform: uppercase;
+    color: #ffffff;
+    line-height: 32px;
+    font-size: 28px;
+    font-family: 'Klavika-osf', sans-serif;
+}
+
+.header strong {
+    font-family: 'Klavika Bd', sans-serif;
+}
+
+.logo {
+    float: left;
+    margin-top: 24px;
+}
+
+.navigation ul li {
+    float: right;
+    font-size: 16px;
+    padding: 26px 0 0 36px;
+    font-family: 'Klavika-osf', sans-serif;
+}
+
+.navigation ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.navigation ul li a:hover {
+    text-decoration: underline;
+}
+
+.menu-wrapper .menu-navigation {
+    width: 1170px;
+    margin: auto;
+    height: 46px;
+}
+
+/* Навигация */
+
+.menu-navigation {
+    background: #fff;
+}
+
+.menu-navigation ul li {
+    display: inline-block;
+}
+
+.menu-navigation ul li a {
+    display: inline-block;
+    color: #a71c1c;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 20px;
+    padding: 14px;
+    line-height: 18px;
+    text-align: center;
+    font-family: 'Klavika-plain', sans-serif;
+}
+
+.menu-navigation img {
+    padding-left: 6px;
+    padding-bottom: 2px;
+}
+
+.menu-navigation ul li a:hover {
+    text-decoration: underline;
+}
+
+.menu-navigation ul li.active a {
+    color: blueviolet;
+}
+
+/*секция 1*/
+
+section {
+    height: 456px;
+}
+
+.slider-container, .slider-container .slick-list, .slider-container .slick-list .slick-track {
+    height: 100%;
+}
+
+.slider-container .slider-1 {
+    height: 100%;
+    background: url(../images/car.jpg);
+}
+
+.slider-container .slider-2 {
+    height: 100%;
+    background: url(../images/car2.jpg);
+}
+
+.slick-dots {
+    bottom: auto;
+    top: 26px;
+    text-align: left;
+    width: 1170px;
+    margin: auto;
+    left: 0;
+    right: 0;
+}
+
+.slick-dots li {
+    border: 2px solid #fff;
+    border-radius: 50%;
+    width: 11px;
+    height: 11px;
+    background-color: #fff;
+    margin: 0 8px 0 0;
+    vertical-align: top;
+}
+
+.slick-dots li:not(.slick-active) {
+    background-color: transparent;
+}
+
+.slick-dots li button {
+    display: none;
+}
+
+.slick-dots li button:before {
+    content: none;
+}
+
+.mainsection {
+    width: 1170px;
+    margin: auto;
+    bottom: 0;
+    position: relative;
+}
+
+.main-text {
+    background: url(../images/Layer.png);
+    width: 770px;
+    position: absolute;
+    bottom: 30px;
+    left: 0;
+}
+
+.main-text p {
+    font-size: 60px;
+    line-height: 65px;
+    color: #fff;
+    font-family: 'Klavika-plain-reg', sans-serif;
+    padding: 22px 24px;
+}
+
+/* Основная часть контента*/
+
+main {
+    background: #fff;
+    text-align: center;
+    z-index: 1;
+    position: relative;
+}
+
+.content {
+    display: inline-block;
+    width: 1170px;
+    text-align: left;
+}
+
+.content-text {
+    float: left;
+    margin-right: 20px;
+}
+
+.content-text {
+    width: 770px;
+}
+
+.content-text h1 {
+    font-size: 36px;
+    line-height: 65px;
+    color: #c82121;
+    font-family: 'Klavika-plain', sans-serif;
+}
+
+.content-text p {
+    font-size: 18px;
+    line-height: 24px;
+    font-family: 'Proxima Nova Rg', sans-serif;
+}
+
+/* Форма */
+
+.sidebar {
+    float: left;
+    margin-top: -185px;
+    padding: 24px 36px;
+    background: #fff;
+    border-left: 2px solid #dedede;
+    width: 370px;
+}
+
+.sidebar .text {
+    width: 100%;
+}
+
+legend h3 {
+    color: #a71c1c;
+    font-size: 23px;
+    padding-bottom: 20px;
+    font-family: 'Klavika-plain', sans-serif;
+}
+
+input:not(:last-child) {
+    margin-bottom: 20px;
+    height: 36px;
+    border: 1px solid #cac9c9;
+    background: #dedddd;
+    padding-left: 10px;
+    padding-right: 4px;
+    border-radius: 1px;
+}
+
+textarea {
+    resize: none;
+}
+
+input:last-child {
+    margin-bottom: 26px;
+}
+
+button {
+    width: 300px;
+    background: #c52020;
+    outline: none;
+    color: #fff;
+    border: none;
+    font-size: 18px;
+    line-height: 65px;
+    font-family: 'Klavika-plain', sans-serif;
+    border-radius: 2px;
+    margin-top: 28px;
+    text-transform: uppercase;
+}
+
+textarea {
+    margin-bottom: 20px;
+    border: 1px solid #cac9c9;
+    background: #dedddd;
+    padding-left: 10px;
+    padding-right: 4px;
+    border-radius: 1px;
+}
+
+/* Список в контенте*/
+
+.list {
+    overflow: hidden;
+}
+
+.content-lists {
+    float: left;
+    line-height: 22px;
+    width: 50%;
+}
+
+.list p {
+    font-size: 20px;
+    line-height: 65px;
+    color: #c82121;
+    font-family: 'Klavika Bd', sans-serif;
+}
+
+.list li {
+    color: #000000;
+    padding-left: 25px;
+    position: relative;
+    margin-bottom: 20px;
+    line-height: 22px;
+    font-size: 16px;
+}
+
+.list li:before {
+    content: '✔';
+    top: 0;
+    left: 0;
+    color: #c52020;
+    position: absolute;
+}
+
+aside {
+    background: #e2e1e1;
+}
+
+.container {
+    width: 1170px;
+    margin: auto;
+    overflow: hidden;
+}
+
+.container-left {
+    float: left;
+    width: 69%;
+    padding-bottom: 96px;
+}
+
+.box {
+    overflow: hidden;
+}
+
+.box li {
+    float: left;
+    margin-right: 26px;
+    margin-top: 30px;
+    width: 240px;
+}
+
+.container-left h2 {
+    font-size: 36px;
+    line-height: 65px;
+    font-family: 'Klavika-plain-reg', sans-serif;
+}
+
+blockquote {
+    float: right;
+    width: 31%;
+    padding-top: 98px;
+}
+
+.box li {
+    position: relative;
+}
+
+.box li span {
+    position: absolute;
+    background: #b21c1c;
+    left: 0;
+    bottom: 0;
+    width: 240px;
+    opacity: 0.5;
+    margin-bottom: 4px;
+    height: 74px;
+}
+
+.box li a {
+    font-size: 20px;
+    line-height: 65px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.box a {
+    padding: 18px 18px;
+    color: #fff;
+    font-family: 'Klavika-plain', sans-serif;
+}
+
+.sidebard {
+    position: relative;
+    background: url(../images/im.png);
+}
+
+.sidebar-text {
+    position: absolute;
+    background: url(../images/im.png);
+    width: 370px;
+    height: 376px;
+    padding: 55px 34px 0 24px;
+    font-family: 'Klavika-plain', sans-serif;
+}
+
+.sidebar-text p {
+    color: #fff;
+    font-size: 40px;
+    line-height: normal;
+}
+
+.sidebar-text p cite {
+    color: #fff;
+    font-size: 15px;
+}
+
+.sidebar-text span {
+    font-size: 225px;
+    line-height: 0;
+    display: block;
+    margin-top: 60px;
+}
+
+.sidebar-text strong {
+    font-weight: bold;
+}
+
+/* FOOTER*/
+
+footer {
+    background: url(../images/footer.png) no-repeat 50% 0;
+    background-size: cover;
+}
+
+.footer-wrapper {
+    width: 1170px;
+    margin: auto;
+    overflow: hidden;
+}
+
+.footer-content {
+    overflow: hidden;
+}
+
+.footer-content-left {
+    float: left;
+    margin-top: 84px;
+    width: 50%;
+}
+
+.footer-content-right {
+    float: right;
+    margin-top: 88px
+}
+
+.footer-container-left {
+    overflow: hidden;
+}
+
+.footer-left-list {
+    float: left;
+    width: 50%;
+}
+
+.footer-container-left-second {
+    overflow: hidden;
+    margin-top: 68px;
+}
+
+.footer-left-list-second {
+    float: left;
+    width: 50%;
+    margin-bottom: 104px;
+}
+
+.footer-content-left h2 {
+    font-size: 36px;
+    line-height: 65px;
+    font-family: 'Klavika-osf', sans-serif;
+    text-transform: uppercase;
+    color: #fff;
+    padding-bottom: 54px;
+}
+
+.footer-content-left p {
+    font-size: 20px;
+    line-height: 24px;
+    font-family: 'Klavika Bd', sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #fff;
+    padding-bottom: 28px;
+}
+
+.footer-content-left a {
+    font-size: 16px;
+    line-height: 30px;
+    color: #fff;
+    text-decoration: none;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #9c5a5a;
+    font-family: 'Klavika-osf', sans-serif;
+    display: inline-block;
+}
+
+.footer-content-left a:hover {
+    text-decoration: underline;
+}
+
+.contact strong {
+    font-size: 29px;
+    line-height: 65px;
+    font-family: 'Klavika Bd', sans-serif;
+    font-weight: bold;
+    color: #fff;
+}
+
+.contact strong a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.contact p {
+    font-size: 29px;
+    line-height: 65px;
+    font-family: 'Klavika-plain-reg', sans-serif;
+    color: #fff;
+    padding-bottom: 44px;
+}
+
+address p:first-child {
+    font-size: 19px;
+    line-height: 30px;
+    font-family: 'Klavika Bd', sans-serif;
+    font-weight: bold;
+    color: #fff;
+    padding-bottom: 16px;
+}
+
+address {
+    padding-bottom: 54px;
+}
+
+address p {
+    font-size: 19px;
+    line-height: 30px;
+    font-family: 'Klavika-plain-reg', sans-serif;
+    color: #fff;
+}
+
+.telephone p {
+    font-size: 19px;
+    line-height: 30px;
+    color: #fff;
+}
+
+.telephone p a {
+    font-size: 19px;
+    line-height: 30px;
+    font-family: 'Klavika Bd', sans-serif;
+    color: #fff;
+    text-decoration: none;
+}
+
+.telephone-second {
+    font-size: 19px;
+    line-height: 30px;
+    color: #fff;
+    font-family: 'Klavika-plain-reg', sans-serif;
+}
+
+.telephone-second a {
+    text-decoration: none;
+    font-size: 19px;
+    line-height: 30px;
+    color: #fff;
+    font-family: 'Klavika-plain-reg', sans-serif;
+}
+
+.footerinfo {
+    width: 1170px;
+    overflow: hidden;
+    border-top: 1px solid #9c5a5a;
+    margin-bottom: 104px;
+}
+
+.infoleft {
+    float: left;
+    margin-top: 17px;
+}
+
+.inforight {
+    float: right;
+    margin-top: 20px;
+}
+
+.inforight a:first-child {
+    font-weight: bold;
+    font-family: 'Klavika Bd', sans-serif;
+    font-size: 14px;
+    line-height: 30px;
+    padding-right: 22px;
+}
+
+.inforight a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.infoleft a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 11px;
+    font-family: Arial, sans-serif;
+    line-height: 19px;
+}
+
+.infoleft a:hover {
+    text-decoration: underline;
+}
+
+.infoleft p {
+    color: #fff;
+    font-size: 11px;
+    font-family: Arial, sans-serif;
+    line-height: 19px;
+}
+
+.infoleft img {
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+input[type="checkbox"] {
+    display: none;
+}
+
+input[type="checkbox"]+span {
+    display: inline-block;
+    width: 14px;
+    height: 14px;
+    background-color: #dedddd;
+    border: 1px solid #cac9c9;
+    border-radius: 2px;
+}
+
+input[type="checkbox"]:checked+span::before {
+    content: "";
+    display: block;
+    width: 20px;
+    height: 20px;
+    background: url(../images/4.png);
+}
